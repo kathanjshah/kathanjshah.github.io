@@ -6,6 +6,7 @@ import menuImage from "../../Assets/menus.png";
 import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
 import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Body() {
   const matches = useMediaQuery("(min-width:720px)");
@@ -42,11 +43,10 @@ function Body() {
           <GTranslateIcon className="translate" />
         </h3>
         <p> - Narendra Lalchand Shah(Grandfather)</p>
-        <p>
-          Teambo is #1 tool for managing teams and accesing tasks.
-          <br />
-          We are the most comprehensive CRM to help your company grow.
-        </p>
+        <a href="www.linkedin.com/in/kathanjshah">
+          <LinkedInIcon/>
+        </a>
+        
       </div>
       <div className="body3">
         <div className="discription">

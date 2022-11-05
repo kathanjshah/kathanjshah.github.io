@@ -27,6 +27,16 @@
     justify-content: center;
     align-items: center;
 }
+a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0060B6;
+    text-decoration:none; 
+    cursor:pointer;  
+}
 .translate {
     color: #1976d2;
     animation: MoveUpDown 1s linear infinite;
