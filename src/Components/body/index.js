@@ -1,28 +1,27 @@
 import React from "react";
 import "./body.css";
-import { Button, useMediaQuery } from "@mui/material";
+
 import BugReportIcon from "@mui/icons-material/BugReport";
-import menuImage from "../../Assets/menus.png";
-import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
 import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import AlternateTimeline from "../timeline/timeline";
+import EducationTimeline from "../timeline/education";
+
+
 
 function Body() {
-  const matches = useMediaQuery("(min-width:720px)");
-  const style = {
-    width: "100%",
-    maxWidth: 360,
-    bgcolor: "background.paper",
-  };
   const [active, setActive] = useState(false);
   const handleClick = () => {
     setActive(!active);
   };
+  const [isHovered, setHover] = useState(false);
+
   return (
     <div className="body">
       <div className="body1">
         <div className="discription">
+          <div className="helloWorld"></div>
+          <h1></h1>
           <h1>
             &lt;Hello World! &gt; <br /> I'm{" "}
             <span style={{ color: "#1976d2" }}>Kathan</span> Shah
@@ -43,52 +42,36 @@ function Body() {
           <GTranslateIcon className="translate" />
         </h3>
         <p> - Narendra Lalchand Shah(Grandfather)</p>
-        <a href="www.linkedin.com/in/kathanjshah">
-          <LinkedInIcon/>
-        </a>
-        
       </div>
-      <div className="body3">
-        <div className="discription">
-          <h3>
-            Smart Communication and
-            <br />
-            AI-bot support
-          </h3>
-          <p>
-            We are using low latency technology to ensure
-            {matches ? <br /> : null}
-            your Communicationis not disrupted.
-          </p>
-          <div className="card">
-            <div
+
+      <div id="Experience" className="body3">
+        <h1>Experience</h1>
+        <AlternateTimeline className="timeline" />
+      </div>
+      <div id="Projects" className="body4">
+        <h1>Education</h1>
+        <EducationTimeline className="timeline" />
+      </div>
+      <div>
+        <div
+          className="imageContainer"
+          onMouseOver={() => setHover(true)}
+          onMouseLeave={() => setHover(false)}
+        >
+          {/* <Image src="https://via.placeholder.com/150" />
+          {isHovered && (
+            <Button
+              size="sm"
               style={{
-                display: "flex",
-                alignItems: "center",
-                flexWrap: "wrap",
-                padding: "5px",
-                gap: "5px;",
+                position: "absolute",
+                top: "5px",
+                right: "5px",
               }}
+              variant="primary"
             >
-              <QueryBuilderIcon color="primary" />
-              <p>Low latency Communication.</p>
-            </div>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                flexWrap: "wrap",
-                padding: "5px",
-                gap: "5px;",
-              }}
-            >
-              <QueryBuilderIcon color="primary" />
-              <p>Low latency Communication.</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <img className="imgside" src={menuImage} />
+              Show on hover
+            </Button>
+          )} */}
         </div>
       </div>
     </div>

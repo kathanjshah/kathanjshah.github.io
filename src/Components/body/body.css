@@ -32,8 +32,12 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.linkedIn {
     color: #0060B6;
+}
+
+.linkedIn:hover {
+    color: black;
     text-decoration:none; 
     cursor:pointer;  
 }
@@ -64,16 +68,20 @@ a:hover {
 }
 .body2 {
     text-align: center;
-    margin-bottom: 150px;
-}
-.body3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
     
 }
+.body3 {
+    width: 100%;
+    
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+
+
 .card {
     background-color: lightblue;
 }
@@ -95,6 +103,10 @@ p {
     width: 350px;
     
 }
+.helloWorld {
+    background-color: black;
+
+}
 @media only screen and (max-width: 720px) {
     .body1 {
         flex-direction: column;
@@ -106,7 +118,5 @@ p {
         width: 200px;
         height: 200px;
     }
-    .body3 {
-        flex-direction: column;
-    }
+    
 }
