@@ -15,7 +15,7 @@ function Header() {
 
       {matches ? (
         <div className="groupicons">
-          <div className="clickicons"><a href="Experience">Experience</a></div>
+          <div className="clickicons"><a href="#Experience">Experience</a></div>
           <div className="clickicons">Education</div>
           <div className="clickicons">Projects</div>
           <div className="clickicons">About</div>
