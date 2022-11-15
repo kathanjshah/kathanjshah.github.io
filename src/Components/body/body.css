@@ -83,7 +83,9 @@ a {
 .body4 {
     width: 100%
 }
-
+.body5 {
+    text-align: left;
+}
 .card {
     background-color: lightblue;
 }

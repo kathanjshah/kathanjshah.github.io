@@ -52,7 +52,7 @@ function Body() {
         <h1>Education</h1>
         <TimelineCmpt className="timeline" isJob={false}/>
       </div>
-      <div id="Projects" className="body5">
+      <div id="Project" className="body5">
         <h1>Projects</h1>
         <ProjectCard/>
       </div>
