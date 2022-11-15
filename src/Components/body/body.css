@@ -80,7 +80,9 @@ a {
     margin-top: 10%;
 }
 
-
+.body4 {
+    width: 100%
+}
 
 .card {
     background-color: lightblue;

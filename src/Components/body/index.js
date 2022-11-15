@@ -4,8 +4,8 @@ import "./body.css";
 import BugReportIcon from "@mui/icons-material/BugReport";
 import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
-import AlternateTimeline from "../timeline/timeline";
-import EducationTimeline from "../timeline/education";
+
+import TimelineCmpt from "../timeline/timelineCmpt";
 
 
 
@@ -46,11 +46,11 @@ function Body() {
 
       <div id="Experience" className="body3">
         <h1>Experience</h1>
-        <AlternateTimeline className="timeline" />
+        <TimelineCmpt className="timeline" isJob={true} />
       </div>
-      <div id="Projects" className="body4">
+      <div id="Education" className="body4">
         <h1>Education</h1>
-        <EducationTimeline className="timeline" />
+        <TimelineCmpt className="timeline" isJob={false}/>
       </div>
       <div>
         <div
