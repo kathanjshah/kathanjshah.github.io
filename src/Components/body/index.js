@@ -4,8 +4,8 @@ import "./body.css";
 import BugReportIcon from "@mui/icons-material/BugReport";
 import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
-
 import TimelineCmpt from "../timeline/timelineCmpt";
+import ProjectCard from "../projectCard/projectCard";
 
 
 
@@ -52,28 +52,11 @@ function Body() {
         <h1>Education</h1>
         <TimelineCmpt className="timeline" isJob={false}/>
       </div>
-      <div>
-        <div
-          className="imageContainer"
-          onMouseOver={() => setHover(true)}
-          onMouseLeave={() => setHover(false)}
-        >
-          {/* <Image src="https://via.placeholder.com/150" />
-          {isHovered && (
-            <Button
-              size="sm"
-              style={{
-                position: "absolute",
-                top: "5px",
-                right: "5px",
-              }}
-              variant="primary"
-            >
-              Show on hover
-            </Button>
-          )} */}
-        </div>
+      <div id="Projects" className="body5">
+        <h1>Projects</h1>
+        <ProjectCard/>
       </div>
+      
     </div>
   );
 }
