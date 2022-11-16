@@ -83,7 +83,15 @@ a {
 .body4 {
     width: 100%
 }
-.body5 {
+.internal {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: left;
+}
+.about {
+    display: flex;
+    flex-direction: column;
     text-align: left;
 }
 .card {
@@ -91,6 +99,16 @@ a {
 }
 .bold {
     font-weight: 500;
+}
+.kathan {
+    width: 300px;
+}
+.body6 {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%
 }
 p {
     font-weight: lighter;
@@ -121,6 +139,15 @@ p {
     .imgCircle {
         width: 200px;
         height: 200px;
+    }
+    .internal {
+        flex-direction: column;
+    }
+    .about {
+        width: 100%
+    }
+    .body6 {
+        flex-direction: column;
     }
     
 }
