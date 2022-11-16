@@ -6,7 +6,16 @@ import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 import TimelineCmpt from "../timeline/timelineCmpt";
 import MediaCard from "../projectCard/projectCard";
-import kathan from "../../Assets/kathan.jpg"
+import kathan from "../../Assets/kathan.jpg";
+import js from "../../Assets/javascript.png";
+import java from "../../Assets/java.png";
+import cplusplus from "../../Assets/cplusplus.png";
+import css from "../../Assets/css.png";
+import gitpic from "../../Assets/git.png";
+import html from "../../Assets/html.png";
+import nextjs from "../../Assets/nextjs.png";
+import python from "../../Assets/python.png";
+import reactpic from "../../Assets/react.png";
 
 function Body() {
   const [active, setActive] = useState(false);
@@ -112,11 +121,13 @@ function Body() {
           </p>
         </div>
         <div>
-          <img src={kathan}
-          className="kathan"
-          ></img>
+          <img src={kathan} className="kathan"></img>
         </div>
       </div>
+      <div id="skills">
+          <h1>Skills</h1>
+
+        </div>
     </div>
   );
 }
