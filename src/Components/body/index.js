@@ -126,7 +126,18 @@ function Body() {
       </div>
       <div id="skills">
           <h1>Skills</h1>
-
+          <div>
+          <img src={reactpic}></img>
+          <img src={js}></img>
+          <img src={html}></img>
+          <img src={css}></img>
+          <img src={python}></img>
+          <img src={gitpic}></img>
+          <img src={nextjs}></img>
+          <img src={cplusplus}></img>
+          <img src={java}></img>
+          </div>
+          
         </div>
     </div>
   );
