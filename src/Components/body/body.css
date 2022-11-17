@@ -127,7 +127,17 @@ p {
 }
 .helloWorld {
     background-color: black;
-
+}
+.skill {
+    width: 48px;
+    height: 48px;
+    object-fit: cover
+}
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    grid-gap: 50px;
 }
 @media only screen and (max-width: 720px) {
     .body1 {

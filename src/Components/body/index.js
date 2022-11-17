@@ -7,7 +7,7 @@ import GTranslateIcon from "@mui/icons-material/GTranslate";
 import TimelineCmpt from "../timeline/timelineCmpt";
 import MediaCard from "../projectCard/projectCard";
 import kathan from "../../Assets/kathan.jpg";
-import js from "../../Assets/javascript.png";
+import js from "../../Assets/js.png";
 import java from "../../Assets/java.png";
 import cplusplus from "../../Assets/cplusplus.png";
 import css from "../../Assets/css.png";
@@ -16,6 +16,8 @@ import html from "../../Assets/html.png";
 import nextjs from "../../Assets/nextjs.png";
 import python from "../../Assets/python.png";
 import reactpic from "../../Assets/react.png";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Body() {
   const [active, setActive] = useState(false);
@@ -125,20 +127,53 @@ function Body() {
         </div>
       </div>
       <div id="skills">
-          <h1>Skills</h1>
+        <h1>Skills</h1>
+        <div className="skills">
           <div>
-          <img src={reactpic}></img>
-          <img src={js}></img>
-          <img src={html}></img>
-          <img src={css}></img>
-          <img src={python}></img>
-          <img src={gitpic}></img>
-          <img src={nextjs}></img>
-          <img src={cplusplus}></img>
-          <img src={java}></img>
+            <p></p>
+            <img className="skill" src={reactpic}></img>
           </div>
-          
+          <div>
+            <p></p>
+            <img className="skill" src={js}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={html}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={css}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={python}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={gitpic}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={nextjs}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={cplusplus}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={java}></img>
+          </div>
         </div>
+      </div>
+      <div id="Contact">
+        <h1>Contact</h1>
+        <h3>Let's create your next experience together</h3>
+        <h3>kjshah@mun.ca</h3>
+        <a href="https://github.com/kathanjshah"><GitHubIcon></GitHubIcon></a>
+        <a href="https://www.linkedin.com/in/kathanjshah/"><LinkedInIcon></LinkedInIcon></a>
+      </div>
     </div>
   );
 }
