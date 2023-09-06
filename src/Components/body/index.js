@@ -6,7 +6,7 @@ import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
 import TimelineCmpt from "../timeline/timelineCmpt";
 import MediaCard from "../projectCard/projectCard";
-import kathan from "../../Assets/kathan.jpg";
+import kathan from "../../Assets/kathan3.jpg";
 import js from "../../Assets/js.png";
 import java from "../../Assets/java.png";
 import cplusplus from "../../Assets/cplusplus.png";
