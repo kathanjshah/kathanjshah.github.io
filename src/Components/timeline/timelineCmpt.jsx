@@ -9,6 +9,20 @@ import TimelineDot from "@mui/lab/TimelineDot";
 export default function TimelineCmpt(props) {
   const jobs = [
     {
+      company: "OPAS Mobile",
+      role: "Software Developer",
+      duration: "Feb 2023 - Present",
+      place: "St. John's, NL",
+      discription: [
+        "Led the transformation of the company's safety SaaS application into a fully functional Progressive Web App (PWA), ensuring offline capability, installability, and robust service worker integration.",
+        "Directed the development and maintenance of the application, utilizing Apollo Client and ReactJS for the frontend, and Apollo Server and PostgreSQL for the backend.",
+        "Designed an offline request handling system that queues mutations and processes them sequentially when users reconnect online, ensuring a seamless experience without data loss in case of subsequent network failures.",
+        "Leveraged IndexedDB, the web browser database, to meticulously manage and segregate user data, ensuring data integrity, preventing overlap across application versions, and safeguarding user privacy.",
+        "Utilized Apollo Client for caching to maintain data consistency and persistence for offline usage. Configured Product Fruits to create interactive user tours and enhance app features, improving user onboarding and engagement.",
+        "Integrated AI functionalities by connecting to external APIs, processing user data, and delivering insightful results to enhance user experience.",
+      ], 
+    },
+    {
       company: "Celtx / Backlight",
       role: "Web-Developer",
       duration: "Jan 2021 - Sept 2022",
