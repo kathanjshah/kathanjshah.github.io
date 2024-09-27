@@ -16,22 +16,14 @@ export const jobs = [
       role: 'Web-Developer',
       duration: 'Jan 2021 - Sept 2022',
       place: "St. John's, NL",
-      description: [
-        'Implemented Full stack New User Authentication, and Designed landing page/Onboarding page.',
-        'Integrated Google and Microsoft account sign up for new users.',
-        'Participate in the design and technical choices that build a SaaS cloud-based product.',
-        'Utilized JIRA to follow an Agile Software Development Process',
-        'Worked on making the web apps work offline in chromium based browsers and periodically sync data.',
-        'Improved Code reusability to efficiently create front-ends for customers.',
-        'Migrated from old Google Closure library with .soy templeting into React JS.',
-        'Executed unit tests to ensure code quality and prevent regression bugs from entering production environments.',
-        'Used React Router for client-side routing and Axios for making asynchronous HTTP requests.',
-      ],
+      src: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Hi_Res_white_on_black_celtx_logo.jpg',
+      description: 'As a full-stack developer, I implemented New User Authentication and designed intuitive landing and onboarding pages. I integrated Google and Microsoft account sign-ups and contributed to the design and technical decisions for a SaaS cloud-based product. Following Agile methodology with JIRA, I enhanced offline functionality for Chromium-based browsers, improved code reusability, and migrated legacy Google Closure code to ReactJS. Additionally, I executed unit tests to ensure high code quality, utilized React Router for client-side routing, and Axios for async HTTP requests.',
     },
     {
       company: "Let's Talk Science",
       role: 'Special Events Co-ordinator',
       duration: 'Oct 2022 - present',
+      src: 'https://womeninengtech.ca/wp-content/uploads/2020/05/letstalkscience.jpg',
       place: "St. John's, NL",
       description: [
         'Coordinated all membership events including banquets, concerts, special events and conferences',
@@ -45,6 +37,7 @@ export const jobs = [
       role: 'Web Administrator',
       duration: 'April 2019 - Sept 2020',
       place: "St. John's, NL",
+      src: 'https://scontent.fyyt1-1.fna.fbcdn.net/v/t39.30808-1/305320829_501252082004118_5230741279442509615_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=r6kvvmOE9jkQ7kNvgGBNgVk&_nc_ht=scontent.fyyt1-1.fna&oh=00_AYD8rPCPvAiC1XIfNdcf2NEMtr7vwzfQvmUsXSyajDKrfw&oe=66FBCE5E',
       description: [
         'Gained experience of basic HTML and JS by making a organized website.',
         'Developed communication skills by advising and speaking with customers.',
@@ -56,6 +49,7 @@ export const jobs = [
       role: 'Recruitment and Retention Assistant',
       duration: 'Jan 2020 – April 2020',
       place: "St. John's, NL",
+      src: 'https://scontent.fyyt1-1.fna.fbcdn.net/v/t39.30808-6/306079103_410182247855593_939971049144866396_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9ndspWybM5UQ7kNvgEhYsTM&_nc_ht=scontent.fyyt1-1.fna&_nc_gid=ABMS5OTrm9t1hJGXkTt_l7r&oh=00_AYA1ZZU9fY0yWGEEAmJ4HhnkFWfISFKObo1uqWDRyO32nA&oe=66FBE5FD',
       description: [
         'Expanded my on-field knowledge about retention and recruitment of new people by learning to work with potential graduate students across the world.',
         'Succeeded in gathering raw data and turning into valuable article, and data frames for data science projects in future for School of Graduate Studies.',
