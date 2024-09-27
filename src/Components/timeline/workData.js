@@ -22,7 +22,7 @@ export const jobs = [
     {
       company: "Let's Talk Science",
       role: 'Special Events Co-ordinator',
-      duration: 'Oct 2022 - present',
+      duration: 'Oct 2022 - Dec 2022',
       src: 'https://womeninengtech.ca/wp-content/uploads/2020/05/letstalkscience.jpg',
       place: "St. John's, NL",
       description: [

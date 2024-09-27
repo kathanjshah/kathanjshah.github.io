@@ -93,7 +93,7 @@ function Body() {
 
       <div id="Experience" className="body3">
         <h1>Experience</h1>
-        <Work></Work>
+        <Work/>
       </div>
       <div id="Education" className="body4">
         <h1>Education</h1>
