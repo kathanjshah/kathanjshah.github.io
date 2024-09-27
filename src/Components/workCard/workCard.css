@@ -1,0 +1,36 @@
+.jobContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatarContainer {
+    flex: none
+}
+
+.jobDetails {
+    margin-left: 1rem;
+    flex-grow: 1;
+}
+
+.expandJob {
+    display: flex;
+    align-items: center;
+}
+
+.companyDateContiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jobDescriptionContainer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out, opacity 1s ease-in-out;
+    opacity: 0;
+  }
+  
+  .jobDescriptionContainer.show {
+    max-height: 500px; /* Assume a reasonable maximum height */
+    opacity: 1;
+  }

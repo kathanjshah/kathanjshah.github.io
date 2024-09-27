@@ -1,12 +1,12 @@
 .body {
     display: flex;
     flex-direction: column;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 25%;
+    padding-left: 25%;
     padding-top: 5%;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .body1 {
@@ -72,7 +72,6 @@ a {
 }
 .body3 {
     width: 100%;
-    
     justify-content: center;
     display: flex;
     align-items: center;
@@ -140,8 +139,15 @@ p {
     grid-gap: 50px;
 }
 @media only screen and (max-width: 720px) {
+    .body {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
     .body1 {
         flex-direction: column;
+    }
+    .body3 {
+        width: 100%;
     }
     .discription {
         padding-bottom: 10px;
