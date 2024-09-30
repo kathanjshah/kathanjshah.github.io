@@ -92,11 +92,12 @@ function Body() {
       </div>
 
       <div id="Experience" className="body3">
-        <h1>Experience</h1>
-        <Work/>
+        <h1>Work Experience</h1>
+        <Work work={true}/>
       </div>
       <div id="Education" className="body4">
         <h1>Education</h1>
+        <Work education={true}/>
       </div>
       <div id="Project" className="body5">
         <h1>Projects</h1>

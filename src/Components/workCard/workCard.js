@@ -6,7 +6,6 @@ import ExpandLessIcon from '@mui/icons-material/ExpandMore';
 
 import './workCard.css';
 
-
 const Job = ({job}) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -42,7 +41,7 @@ const Job = ({job}) => {
             <div className="date">
               <Typography
                 variant="body2"
-                sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.75rem'}}
+                sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.65rem'}}
                 color="textSecondary"
               >
                 {job.duration}
@@ -60,12 +59,16 @@ const Job = ({job}) => {
         </div>
 
         <div className={`jobDescriptionContainer ${isExpanded ? 'show' : ''}`}>
-          <Typography
-            variant="body2"
-            sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.75rem'}}
-          >
-            {isExpanded ? job.description : job.description}
-          </Typography>
+          {job.description.map((des) => {
+            return (
+              <Typography
+                variant="body2"
+                sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.75rem'}}
+              >
+                {des}
+              </Typography>
+            );
+          })}
         </div>
       </div>
     </div>
