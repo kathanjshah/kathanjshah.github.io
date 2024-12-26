@@ -32,7 +32,7 @@ export const jobs = [
       role: 'Web Administrator',
       duration: 'April 2019 - Sept 2020',
       place: "St. John's, NL",
-      src: 'https://scontent.fyyt1-1.fna.fbcdn.net/v/t39.30808-1/305320829_501252082004118_5230741279442509615_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=r6kvvmOE9jkQ7kNvgGBNgVk&_nc_ht=scontent.fyyt1-1.fna&oh=00_AYD8rPCPvAiC1XIfNdcf2NEMtr7vwzfQvmUsXSyajDKrfw&oe=66FBCE5E',
+      src: 'https://ibb.co/LnrrbFR',
       description: ["Gained experience in basic HTML and JavaScript by creating an organized website. Developed communication skills by advising and interacting with customers, and improved management skills through arranging, decorating, and restocking the shop."]
     },
     {
@@ -40,7 +40,7 @@ export const jobs = [
       role: 'Recruitment & Retention Assistant',
       duration: 'Jan 2020 – April 2020',
       place: "St. John's, NL",
-      src: 'https://scontent.fyyt1-1.fna.fbcdn.net/v/t39.30808-6/306079103_410182247855593_939971049144866396_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9ndspWybM5UQ7kNvgEhYsTM&_nc_ht=scontent.fyyt1-1.fna&_nc_gid=ABMS5OTrm9t1hJGXkTt_l7r&oh=00_AYA1ZZU9fY0yWGEEAmJ4HhnkFWfISFKObo1uqWDRyO32nA&oe=66FBE5FD',
+      src: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMemorial_University_of_Newfoundland_Faculty_of_Medicine&psig=AOvVaw2DRatHXbt0X4pkC4ErrRLh&ust=1735329014721000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjqwr6axooDFQAAAAAdAAAAABAE',
       description: ["Expanded on-field knowledge in retention and recruitment by working with potential graduate students worldwide. Successfully gathered raw data and transformed it into valuable articles and data frames for future data science projects at the School of Graduate Studies."]
     },
   ];
@@ -51,6 +51,6 @@ export const jobs = [
       role: 'Bachelor Of Science',
       description: ["Computer Science & Mathematics","\r","St. John's, NL" ] ,
       duration: '2019 - 2023',
-      src: 'https://scontent.fyyt1-1.fna.fbcdn.net/v/t39.30808-6/306079103_410182247855593_939971049144866396_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=9ndspWybM5UQ7kNvgEhYsTM&_nc_ht=scontent.fyyt1-1.fna&_nc_gid=ABMS5OTrm9t1hJGXkTt_l7r&oh=00_AYA1ZZU9fY0yWGEEAmJ4HhnkFWfISFKObo1uqWDRyO32nA&oe=66FBE5FD',
+      src: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMemorial_University_of_Newfoundland_Faculty_of_Medicine&psig=AOvVaw2DRatHXbt0X4pkC4ErrRLh&ust=1735329014721000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjqwr6axooDFQAAAAAdAAAAABAE',
     },
   ];
