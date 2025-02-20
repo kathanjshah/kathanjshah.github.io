@@ -1,169 +1,167 @@
 .body {
-    display: flex;
-    flex-direction: column;
-    padding-right: 25%;
-    padding-left: 25%;
-    padding-top: 5%;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-top: 5%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .body1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .discription {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .developer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 a {
-    color: #0c0c0c;
-    text-decoration: none;
+  color: #0c0c0c;
+  text-decoration: none;
 }
 
 .linkedIn {
-    color: #0060B6;
+  color: #0060b6;
 }
 
 .linkedIn:hover {
-    color: black;
-    text-decoration:none; 
-    cursor:pointer;  
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 .translate {
-    color: #1976d2;
-    animation: MoveUpDown 1s linear infinite;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    padding-left: 5px;
+  color: #1976d2;
+  animation: MoveUpDown 1s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  padding-left: 5px;
 }
 @keyframes MoveUpDown {
-    0%, 100% {
-      bottom: 0;
-    }
-    50% {
-      bottom: 10px;
-    }
+  0%,
+  100% {
+    bottom: 0;
   }
+  50% {
+    bottom: 10px;
+  }
+}
 .get {
-    max-width: 120px;
+  max-width: 120px;
 }
 .imgCircle {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 .body2 {
-    text-align: center;
-    
+  text-align: center;
 }
 .body3 {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10%;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
 }
 
 .body4 {
-    width: 100%
+  width: 100%;
 }
 .internal {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  text-align: left;
 }
 .about {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 .card {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 .bold {
-    font-weight: 500;
+  font-weight: 500;
 }
 .kathan {
-    width: 300px;
+  width: 150px;
 }
 .body6 {
-    margin-top: 1%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 100%
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
 }
 p {
-    font-weight: lighter;
-    font-size: smaller;
+  font-weight: lighter;
+  font-size: smaller;
 }
 .cardInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
 }
 
 .imgside {
-    height: 288px;
-    width: 350px;
-    
+  height: 288px;
+  width: 350px;
 }
 .helloWorld {
-    background-color: black;
+  background-color: black;
 }
 .skill {
-    width: 48px;
-    height: 48px;
-    object-fit: cover
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
 }
 .skills {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 50px;
-    grid-gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  grid-gap: 50px;
 }
 @media only screen and (max-width: 720px) {
-    .body {
-        padding-right: 10%;
-        padding-left: 10%;
-    }
-    .body1 {
-        flex-direction: column;
-    }
-    .body3 {
-        width: 100%;
-    }
-    .discription {
-        padding-bottom: 10px;
-    }
-    .imgCircle {
-        width: 200px;
-        height: 200px;
-    }
-    .internal {
-        flex-direction: column;
-    }
-    .about {
-        width: 100%
-    }
-    .body6 {
-        flex-direction: column;
-    }
-    
+  .body {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .body1 {
+    flex-direction: column;
+  }
+  .body3 {
+    width: 100%;
+  }
+  .discription {
+    padding-bottom: 10px;
+  }
+  .imgCircle {
+    width: 200px;
+    height: 200px;
+  }
+  .internal {
+    flex-direction: column;
+  }
+  .about {
+    width: 100%;
+  }
+  .body6 {
+    flex-direction: column;
+  }
 }

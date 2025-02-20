@@ -1,12 +1,12 @@
-import React, {useState} from 'react';
-import Avatar from '@mui/material/Avatar';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ChevronRight';
-import ExpandLessIcon from '@mui/icons-material/ExpandMore';
+import React, { useState } from "react";
+import Avatar from "@mui/material/Avatar";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ChevronRight";
+import ExpandLessIcon from "@mui/icons-material/ExpandMore";
 
-import './workCard.css';
+import "./workCard.css";
 
-const Job = ({job}) => {
+const Job = ({ job }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const handleToggle = () => {
@@ -19,7 +19,7 @@ const Job = ({job}) => {
         <Avatar
           src={job.src}
           alt={job.company}
-          sx={{bgcolor: job.color, width: '3rem', height: '3rem'}}
+          sx={{ bgcolor: job.color, width: "3rem", height: "3rem" }}
         />
       </div>
       <div className="jobDetails">
@@ -28,7 +28,11 @@ const Job = ({job}) => {
             <div className="expandJob">
               <Typography
                 variant="subtitle1"
-                sx={{textAlign: 'left', fontWeight: '600', fontSize: '0.75rem'}}
+                sx={{
+                  textAlign: "left",
+                  fontWeight: "600",
+                  fontSize: "0.75rem",
+                }}
               >
                 {job.company}
               </Typography>
@@ -41,7 +45,11 @@ const Job = ({job}) => {
             <div className="date">
               <Typography
                 variant="body2"
-                sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.65rem'}}
+                sx={{
+                  textAlign: "left",
+                  fontWeight: "200",
+                  fontSize: "0.65rem",
+                }}
                 color="textSecondary"
               >
                 {job.duration}
@@ -51,19 +59,23 @@ const Job = ({job}) => {
           <div className="jobPositionContiner">
             <Typography
               variant="body2"
-              sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.75rem'}}
+              sx={{ textAlign: "left", fontWeight: "200", fontSize: "0.75rem" }}
             >
               {job.role}
             </Typography>
           </div>
         </div>
 
-        <div className={`jobDescriptionContainer ${isExpanded ? 'show' : ''}`}>
+        <div className={`jobDescriptionContainer ${isExpanded ? "show" : ""}`}>
           {job.description.map((des) => {
             return (
               <Typography
                 variant="body2"
-                sx={{textAlign: 'left', fontWeight: '200', fontSize: '0.75rem'}}
+                sx={{
+                  textAlign: "left",
+                  fontWeight: "200",
+                  fontSize: "0.75rem",
+                }}
               >
                 {des}
               </Typography>

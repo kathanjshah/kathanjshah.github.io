@@ -1,8 +1,8 @@
-import Job from '../workCard/workCard';
-import {jobs, schools} from './workData';
-import './timeline.css';
+import Job from "../workCard/workCard";
+import { jobs, schools } from "./workData";
+import "./timeline.css";
 
-const Work = ({work = false, education = false}) => {
+const Work = ({ work = false, education = false }) => {
   const returnWork = () => {
     return (
       <div className="jobs">

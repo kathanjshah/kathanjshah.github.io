@@ -1,37 +1,41 @@
 .jobContainer {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .avatarContainer {
-    flex: none
+  flex: none;
+}
+
+.avatarContainer img {
+  object-fit: contain;
 }
 
 .jobDetails {
-    margin-left: 1rem;
-    flex-grow: 1;
+  margin-left: 1rem;
+  flex-grow: 1;
 }
 
 .expandJob {
-    display: flex;
-    align-items: center;
-    max-width: 70%;
+  display: flex;
+  align-items: center;
+  max-width: 70%;
 }
 
 .companyDateContiner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .jobDescriptionContainer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    opacity: 0;
-  }
-  
-  .jobDescriptionContainer.show {
-    max-height: 500px; /* Assume a reasonable maximum height */
-    opacity: 1;
-  }
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.jobDescriptionContainer.show {
+  max-height: 500px; /* Assume a reasonable maximum height */
+  opacity: 1;
+}
