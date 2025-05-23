@@ -1,10 +1,8 @@
-import React from "react";
 import "./body.css";
 
 import BugReportIcon from "@mui/icons-material/BugReport";
 import { useState } from "react";
 import GTranslateIcon from "@mui/icons-material/GTranslate";
-import MediaCard from "../projectCard/projectCard";
 import kathan from "../../Assets/kathan34.JPG";
 import js from "../../Assets/js.png";
 import java from "../../Assets/java.png";
@@ -24,6 +22,7 @@ function Body() {
   const handleClick = () => {
     setActive(!active);
   };
+  /*
   const projectCard = [
     {
       title: "Ricochet Robots",
@@ -61,7 +60,7 @@ function Body() {
         git={cd.git}
       />
     );
-  });
+  });*/
 
   return (
     <div className="body">
