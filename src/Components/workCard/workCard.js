@@ -3,6 +3,7 @@ import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ChevronRight";
 import ExpandLessIcon from "@mui/icons-material/ExpandMore";
+import { isMobile } from "react-device-detect";
 
 import "./workCard.css";
 
@@ -25,8 +26,7 @@ const Job = ({ job }) => {
       <div className="jobDetails">
         <div>
           <div className="companyDateContiner">
-            <div className="expandJob">
-              <Typography
+            <Typography
                 variant="subtitle1"
                 sx={{
                   textAlign: "left",
@@ -37,24 +37,10 @@ const Job = ({ job }) => {
                 {job.company}
               </Typography>
               {isExpanded ? (
-                <ExpandLessIcon onClick={handleToggle} fontSize="small" />
+                <ExpandLessIcon onClick={isMobile ? handleToggle : null} onMouseLeave={isMobile ? null: handleToggle} fontSize="small" />
               ) : (
-                <ExpandMoreIcon onClick={handleToggle} fontSize="small" />
+                <ExpandMoreIcon onClick={isMobile ? handleToggle : null} onMouseEnter={isMobile ? null: handleToggle} fontSize="small" />
               )}
-            </div>
-            <div className="date">
-              <Typography
-                variant="body2"
-                sx={{
-                  textAlign: "left",
-                  fontWeight: "200",
-                  fontSize: "0.65rem",
-                }}
-                color="textSecondary"
-              >
-                {job.duration}
-              </Typography>
-            </div>
           </div>
           <div className="jobPositionContiner">
             <Typography
@@ -83,6 +69,19 @@ const Job = ({ job }) => {
           })}
         </div>
       </div>
+      <div className="date">
+              <Typography
+                variant="body2"
+                sx={{
+                  textAlign: "left",
+                  fontWeight: "200",
+                  fontSize: "0.65rem",
+                }}
+                color="textSecondary"
+              >
+                {job.duration}
+              </Typography>
+            </div>
     </div>
   );
 };

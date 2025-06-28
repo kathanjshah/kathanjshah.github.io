@@ -7,6 +7,7 @@ import kathan from "../../Assets/kathan34.JPG";
 import js from "../../Assets/js.png";
 import java from "../../Assets/java.png";
 import cplusplus from "../../Assets/cplusplus.png";
+import angular from "../../Assets/Angular.svg.png";
 import css from "../../Assets/css.png";
 import gitpic from "../../Assets/git.png";
 import html from "../../Assets/html.png";
@@ -98,27 +99,23 @@ function Body() {
         <h1>Education</h1>
         <Work education={true} />
       </div>
-      <div id="Project" className="body5">
-        <h1>Projects</h1>
-        <h5>COMING SOON.....</h5>
-        {/* <div className="internal">{getCard}</div> */}
-      </div>
       <div id="About" className="body6">
         <div className="about">
           <h1>About Me</h1>
           <p>
-            I am a Full Stack Software Developer.
+            I am a Intermediate Full Stack Software Developer.
           </p>
           <p>
             My aim is to challenge myself everyday with new problems so I can
             craft myself into a better engineer everyday.
           </p>
           <p>
-            Learning about new technology, discoveries, inventions, philosophy
-            or just introducing myself to something new fills most of my
-            schedule when I am not working. I am a curious learner and a deep
-            thinker who likes to get acquainted with new piece of knowledge as
-            it is very enriching and fullfilling for me.
+            When I'm not working, I spend most of my time learning and exploring 
+            new concepts. Lately, I’ve been focusing on designing data-intensive 
+            applications, improving my problem-solving skills through LeetCode, 
+            and deepening my understanding of data structures and algorithms (DSA). 
+            I enjoy diving into new areas of knowledge—it’s enriching, fulfilling, 
+            and fuels my curiosity as a lifelong learner.
           </p>
         </div>
         <div>
@@ -138,23 +135,11 @@ function Body() {
           </div>
           <div>
             <p></p>
-            <img className="skill" src={html}></img>
-          </div>
-          <div>
-            <p></p>
-            <img className="skill" src={css}></img>
-          </div>
-          <div>
-            <p></p>
             <img className="skill" src={python}></img>
           </div>
           <div>
             <p></p>
-            <img className="skill" src={gitpic}></img>
-          </div>
-          <div>
-            <p></p>
-            <img className="skill" src={nextjs}></img>
+            <img className="skill" src={angular}></img>
           </div>
           <div>
             <p></p>
@@ -163,6 +148,18 @@ function Body() {
           <div>
             <p></p>
             <img className="skill" src={java}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={gitpic}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={html}></img>
+          </div>
+          <div>
+            <p></p>
+            <img className="skill" src={css}></img>
           </div>
         </div>
       </div>

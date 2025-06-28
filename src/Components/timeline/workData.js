@@ -2,20 +2,31 @@ import { color } from "../styling/color";
 
 export const jobs = [
   {
-    company: "OPAS Mobile",
-    role: "Software Developer",
-    src: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7db4ae2f9569d7a7b4b95ee2d3f05fcf.cdn.bubble.io%2Ff1635679844052x903011877383529300%2F4.png?w=96&h=96&auto=compress&dpr=2&fit=max",
+    company: "Focus FS",
+    role: "Intermediate Full Stack Software Developer",
+    src: "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_400,w_400,x_0,y_0/v1651855092/tenants/cb9e9e01-1ce4-4bf7-b530-3807d3c7c9b0/b38f24a94c4e40b59410ffa6fc3bd0fe/Focus-FS-Logo.png",
     color: color.secondary.main,
-    duration: "Feb 2023 - Present",
+    duration: "April 2025 - Present",
     place: "St. John's, NL",
     description: [
-      "Led the transformation of the company’s safety SaaS application into a Progressive Web App (PWA), with offline capabilities and service worker integration. Developed GraphQL APIs with PostgreSQL, optimized for performance and seamless front-end integration using ReactJS and Apollo Client. Implemented CI/CD pipelines with GitHub Actions, improving deployment efficiency. Designed offline request handling to ensure data consistency during network failures, utilizing IndexedDB for data integrity. Integrated AI functionalities via external APIs and configured Product Fruits for interactive user onboarding.",
+      "Developed and maintained dynamic front-end features using Angular, improving user interface responsiveness and overall application usability. Built and integrated RESTful APIs with a MySQL backend to enable efficient data transactions, enhancing system reliability and performance.",
+    ],
+  },
+  {
+    company: "OPAS Mobile",
+    role: "Full Stack Software Developer",
+    src: "https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F7db4ae2f9569d7a7b4b95ee2d3f05fcf.cdn.bubble.io%2Ff1635679844052x903011877383529300%2F4.png?w=96&h=96&auto=compress&dpr=2&fit=max",
+    color: color.secondary.main,
+    duration: "February 2023 - April 2025",
+    place: "St. John's, NL",
+    description: [
+      "Architected and delivered full-stack features using  ReactJS,Node.js, GraphQL, and PostgreSQL, enhancing system scalability and cutting data retrieval time by 40\%. Led the transformation of the company’s safety SaaS application into a Progressive Web App (PWA), with offline capabilities and service worker integration. Developed GraphQL APIs with PostgreSQL, optimized for performance and seamless front-end integration using ReactJS and Apollo Client. Implemented CI/CD pipelines with GitHub Actions, improving deployment efficiency. Designed offline request handling to ensure data consistency during network failures, utilizing IndexedDB for data integrity. Integrated AI functionalities via external APIs and configured Product Fruits for interactive user onboarding.",
     ],
   },
   {
     company: "Celtx / Backlight",
-    role: "Web-Developer",
-    duration: "Jan 2021 - Sept 2022",
+    role: "Software Developer",
+    duration: "January 2021 - September 2022",
     place: "St. John's, NL",
     src: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Hi_Res_white_on_black_celtx_logo.jpg",
     description: [
@@ -25,7 +36,7 @@ export const jobs = [
   {
     company: "Let's Talk Science",
     role: "Special Events Co-ordinator",
-    duration: "Oct 2022 - Dec 2022",
+    duration: "October 2022 - December 2022",
     src: "https://womeninengtech.ca/wp-content/uploads/2020/05/letstalkscience.jpg",
     place: "St. John's, NL",
     description: [
@@ -35,7 +46,7 @@ export const jobs = [
   {
     company: "Canary Cycles",
     role: "Web Administrator",
-    duration: "April 2019 - Sept 2020",
+    duration: "April 2019 - September 2020",
     place: "St. John's, NL",
     src: require("./images.jpeg"),
     description: [
@@ -45,7 +56,7 @@ export const jobs = [
   {
     company: "School Of Graduate Studies",
     role: "Recruitment & Retention Assistant",
-    duration: "Jan 2020 – April 2020",
+    duration: "January 2020 – April 2020",
     place: "St. John's, NL",
     src: require("./MUN-logo-800x492.png"),
     description: [
