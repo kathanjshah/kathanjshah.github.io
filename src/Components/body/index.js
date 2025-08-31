@@ -67,7 +67,7 @@ function Body() {
       <div className="body1">
         <div className="discription">
           <div className="helloWorld"></div>
-          <h1></h1>
+          <h1>Portfolio Introduction</h1>
           <h1>
             &lt;Hello World! &gt; <br /> I'm{" "}
             <span style={{ color: "#1976d2" }}>Kathan</span> Shah
@@ -109,16 +109,16 @@ function Body() {
             craft myself into a better engineer everyday.
           </p>
           <p>
-            When I'm not working, I spend most of my time learning and exploring 
-            new concepts. Lately, I’ve been focusing on designing data-intensive 
-            applications, improving my problem-solving skills through LeetCode, 
-            and deepening my understanding of data structures and algorithms (DSA). 
-            I enjoy diving into new areas of knowledge—it’s enriching, fulfilling, 
+            When I'm not working, I spend most of my time learning and exploring
+            new concepts. Lately, I’ve been focusing on designing data-intensive
+            applications, improving my problem-solving skills through LeetCode,
+            and deepening my understanding of data structures and algorithms (DSA).
+            I enjoy diving into new areas of knowledge—it’s enriching, fulfilling,
             and fuels my curiosity as a lifelong learner.
           </p>
         </div>
         <div>
-          <img src={kathan} className="kathan"></img>
+          <img src={kathan} className="kathan" alt="Kathan Shah profile" />
         </div>
       </div>
       <div id="skills">
@@ -126,39 +126,39 @@ function Body() {
         <div className="skills">
           <div>
             <p></p>
-            <img className="skill" src={reactpic}></img>
+            <img className="skill" src={reactpic} alt="React" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={js}></img>
+            <img className="skill" src={js} alt="JavaScript" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={python}></img>
+            <img className="skill" src={python} alt="Python" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={angular}></img>
+            <img className="skill" src={angular} alt="Angular" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={cplusplus}></img>
+            <img className="skill" src={cplusplus} alt="C++" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={java}></img>
+            <img className="skill" src={java} alt="Java" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={gitpic}></img>
+            <img className="skill" src={gitpic} alt="Git" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={html}></img>
+            <img className="skill" src={html} alt="HTML" />
           </div>
           <div>
             <p></p>
-            <img className="skill" src={css}></img>
+            <img className="skill" src={css} alt="CSS" />
           </div>
         </div>
       </div>
