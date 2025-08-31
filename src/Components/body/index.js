@@ -11,7 +11,6 @@ import angular from "../../Assets/Angular.svg.png";
 import css from "../../Assets/css.png";
 import gitpic from "../../Assets/git.png";
 import html from "../../Assets/html.png";
-import nextjs from "../../Assets/nextjs.png";
 import python from "../../Assets/python.png";
 import reactpic from "../../Assets/react.png";
 import GitHubIcon from "@mui/icons-material/GitHub";
